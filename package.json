@@ -1,0 +1,19 @@
+{
+    "name": "food-hole-records",
+    "version": "1.0.0",
+    "description": "For keeping the Food Hole in check",
+    "main": "index.js",
+    "author": "Drew Schneider",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "dotenv": "^8.2.0",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
