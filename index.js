@@ -36,6 +36,7 @@ bot.on('message', msg => {
         args = args.splice(1);
         switch(cmd) {
             case 'addKill':
+                msg.delete();
                 if(user !== "drewgolas" && user !== "justismercer")
                     return channel.send("Only the Occultant can update the official logbook");
                 const name = args[0];
@@ -72,7 +73,8 @@ bot.on('message', msg => {
                         channel.send(killChange);
                     }
                 })
-            case 'metrics':
+            case 'killMetrics':
+                msg.delete();
                 if(user !== "drewgolas" && user !== "justismercer")
                     return channel.send("Ask your Official Occultant to inspect his logbook.");
                 const params = {
