@@ -9,7 +9,8 @@
         "dev": "nodemon index.js"
     },
     "dependencies": {
-        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "aws-sdk": "^2.724.0",
+        "discord.js": "^12.2.0",
         "dotenv": "^8.2.0",
         "winston": "^3.3.3"
     },
